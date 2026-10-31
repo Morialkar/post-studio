@@ -3,6 +3,7 @@ name: Déploiement GitHub Pages
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -11,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -24,13 +25,35 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npm test
+      - run: npm run lint
+      - name: Tests unitaires et visuels (fixtures de la boutique de démo)
+        run: npm test
+      - name: Images comparées en cas d'écart
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rendus-tests
+          path: test/output
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main'
         with:
           path: dist
 
+  live:
+    # Boutique de démo réelle, branchée par connexion.demo.json : ne bloque pas le déploiement.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run test:live
+
   deploy:
+    if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     environment:

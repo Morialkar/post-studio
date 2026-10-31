@@ -1,0 +1,43 @@
+name: Veille Shopify et Gemini
+
+# Une fois par mois : ouvre (ou met à jour) une issue avant que quelque chose brise.
+on:
+  schedule:
+    - cron: '0 13 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Suite live sur la boutique de démo (connexion.demo.json)
+        id: live
+        continue-on-error: true
+        run: npm run test:live
+      - name: Versions d'API et modèle Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/veille.ts veille.md
+      - name: Issue si quelque chose est à faire
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LIVE: ${{ steps.live.outcome }}
+        run: |
+          if [ "$LIVE" != "success" ]; then
+            echo "- La suite live sur la boutique de démo échoue : voir le journal de ce workflow." >> veille.md
+          fi
+          if [ ! -s veille.md ]; then echo "Rien à signaler."; exit 0; fi
+          TITLE="Veille : mise à jour à prévoir"
+          BODY="$(printf 'Constats de la veille du %s :\n\n%s\n\nJournal : %s/%s/actions/runs/%s' "$(date +%Y-%m-%d)" "$(cat veille.md)" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")"
+          NUMBER="$(gh issue list --state open --search "in:title \"$TITLE\"" --json number --jq '.[0].number')"
+          if [ -n "$NUMBER" ]; then gh issue comment "$NUMBER" --body "$BODY"; else gh issue create --title "$TITLE" --body "$BODY"; fi

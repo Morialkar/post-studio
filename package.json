@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "test": "vitest run --project unit",
     "fixtures:record": "node scripts/record-fixtures.ts",
-    "test:live": "vitest run --project live"
+    "test:live": "vitest run --project live",
+    "test:update-visuals": "UPDATE_VISUALS=1 vitest run --project unit test/unit/visual.test.ts"
   },
   "dependencies": {
     "@fontsource/fredoka": "^5.3.0",
