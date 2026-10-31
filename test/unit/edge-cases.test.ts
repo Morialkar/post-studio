@@ -4,7 +4,7 @@ import { crunchieFunnyBottle, fields } from '../../src/templates/crunchie-funny-
 import { fitText, wrapCount } from '../../src/templates/shared/fitText.ts'
 import { colorsSentence, thumbnails } from '../../src/templates/shared/format.ts'
 import { DEMO_SHOP_URL, demoProduct } from '../demo.ts'
-import { initNodeRenderer, nodeLoader } from '../render-node.ts'
+import { initNodeRenderer, nodeLoader, prepareImages } from '../render-node.ts'
 
 const t = crunchieFunnyBottle as never
 const shop = { name: 'Démo', url: DEMO_SHOP_URL }
@@ -19,7 +19,7 @@ describe('cas limites', () => {
   })
 
   it('titre très long : le rendu passe', async () => {
-    const v = fields.parse({ title: 'Super Méga Shimmering Squishy Dumpling Édition Collector Arc-en-ciel Géant Lumineux' })
+    const v = await prepareImages(crunchieFunnyBottle, fields.parse({ title: 'Super Méga Shimmering Squishy Dumpling Édition Collector Arc-en-ciel Géant Lumineux' }))
     await expect(renderSvg(t, v as never, nodeLoader)).resolves.toContain('<svg')
   })
 
@@ -38,7 +38,7 @@ describe('cas limites', () => {
   it('sans image ni point fort : le visuel s’exporte quand même, bulles vides cachées', async () => {
     const imported = await crunchieFunnyBottle.fromProducts([{ ...demoProduct('the-oxygen'), featuredImage: null, images: [] }], { shop })
     expect(imported.photo).toBe('')
-    const v = fields.parse(imported)
+    const v = await prepareImages(crunchieFunnyBottle, fields.parse(imported))
     const png = await renderPng(t, v as never, nodeLoader)
     expect(png.length).toBeGreaterThan(1000)
     const svg = await renderSvg(t, v as never, nodeLoader)

@@ -31,9 +31,9 @@ export const text = (label: string, fallback = '', options: Options & { multilin
 export const color = (label: string, fallback: string, options: Options = {}) =>
   field(z.string().regex(/^#[0-9a-f]{6}$/i).default(fallback), { kind: 'color', label, scope: options.scope ?? 'product' })
 
-/** Image : URL https, data URI, ou vide (rien n'est dessiné). */
-export const image = (label: string, options: Options & { cutout?: boolean } = {}) =>
-  field(z.string().default(''), { kind: 'image', label, scope: options.scope ?? 'product', cutout: options.cutout })
+/** Image : URL https, asset du template, data URI, ou vide (rien n'est dessiné). */
+export const image = (label: string, options: Options & { cutout?: boolean; fallback?: string } = {}) =>
+  field(z.string().default(options.fallback ?? ''), { kind: 'image', label, scope: options.scope ?? 'product', cutout: options.cutout })
 
 export function fieldMeta(schema: z.ZodType): FieldMeta | undefined {
   return registry.get(schema)

@@ -128,8 +128,9 @@ Le chemin prévu pour un nouveau visuel : donner le lien du design Canva à Clau
    position, sa taille, sa rotation, ses couleurs, sa police et ses textes.
 2. Chaque élément variable devient un champ : textes du produit (`text`), photos (`image`, détourées au
    besoin), couleurs qu'on voudra changer (`color`). Le reste est fixe dans le JSX.
-3. Les formes (bulles, étoiles, bandeaux) sont redessinées en SVG pour rester recolorables ; les photos
-   fixes (fond de boutique) deviennent des champs image de portée `template`.
+3. Les formes (bulles, étoiles, bandeaux) sont redessinées en SVG pour rester recolorables. Les photos
+   fixes (fond de boutique) sont exportées pleine résolution depuis une copie du design réduite à cet
+   élément (Canva n'exporte pas un asset seul), puis deviennent des champs image de portée `template`.
 4. Les polices Canva sont remplacées par des polices libres proches (Google Fonts, paquets `@fontsource`).
 5. Le template est rendu avec les produits de démo, comparé au design, ajusté, puis ses références
    visuelles sont enregistrées.
@@ -143,8 +144,9 @@ Refait d'après le design Canva « Publication Instagram Crunchie Funny Bottle �
 tailles relevées dans Canva). Polices Fredoka et Poppins (libres) à la place des polices Canva.
 
 - Sans option couleur, la 3e bulle affiche un 3e point fort ; une bulle vide est cachée à l'export.
-- Le fond de boutique est un champ image de portée template : en attendant la photo du Coffre, un
-  dégradé pastel. La photo choisie une fois reste pour toutes les publications.
+- Le fond de boutique vient du design Canva : une copie du design réduite au fond, exportée en 1080×1080
+  (`assets/fond-boutique.jpg`). C'est un champ image de portée template : une autre photo choisie dans
+  l'éditeur reste pour toutes les publications.
 
 ## Maintenance
 

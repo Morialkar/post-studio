@@ -4,7 +4,7 @@ import { beforeAll, describe, expect, it } from 'vitest'
 import { renderPng, renderSvg } from '../../src/render/render.ts'
 import { crunchieFunnyBottle, fields } from '../../src/templates/crunchie-funny-bottle/index.tsx'
 import { DEMO_SHOP_URL, demoImage, demoProduct } from '../demo.ts'
-import { initNodeRenderer, nodeLoader } from '../render-node.ts'
+import { initNodeRenderer, nodeLoader, prepareImages } from '../render-node.ts'
 
 const t = crunchieFunnyBottle as never
 
@@ -14,7 +14,8 @@ async function valuesFor(handle: 'the-snowboards' | 'the-oxygen', images: string
   const imported = await crunchieFunnyBottle.fromProducts([demoProduct(handle)], { shop: { name: 'Démo', url: DEMO_SHOP_URL } })
   const v = fields.parse({ ...imported, bubble1: 'Planche légère et nerveuse', bubble2: 'Parfaite pour la poudreuse' })
   // Images préparées comme dans le navigateur : data URI.
-  return { ...v, photo: demoImage(images[0] as string), thumb1: images[1] ? demoImage(images[1]) : '', thumb2: images[2] ? demoImage(images[2]) : '', thumb3: '', thumb4: '' }
+  const prepared = await prepareImages(crunchieFunnyBottle, v)
+  return { ...prepared, photo: demoImage(images[0] as string), thumb1: images[1] ? demoImage(images[1]) : '', thumb2: images[2] ? demoImage(images[2]) : '', thumb3: '', thumb4: '' }
 }
 
 describe('Crunchie Funny Bottle', () => {
@@ -46,7 +47,7 @@ describe('Crunchie Funny Bottle', () => {
   })
 
   it('image non préparée : refusée avant Satori', async () => {
-    const v = fields.parse({ photo: 'https://cdn.shopify.com/x.jpg' })
+    const v = { ...(await prepareImages(crunchieFunnyBottle, fields.parse({}))), photo: 'https://cdn.shopify.com/x.jpg' }
     await expect(renderSvg(t, v as never, nodeLoader)).rejects.toThrow(/data URI/)
   })
 })

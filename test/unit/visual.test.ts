@@ -4,11 +4,10 @@ import pixelmatch from 'pixelmatch'
 import { PNG } from 'pngjs'
 import { beforeAll, describe, expect, it } from 'vitest'
 import { renderPng } from '../../src/render/render.ts'
-import { fieldsOf } from '../../src/templates/fields.ts'
 import { templates } from '../../src/templates/index.ts'
 import type { AnyTemplate } from '../../src/templates/types.ts'
 import { DEMO_SHOP_URL, type DemoHandle, demoImage, demoProduct } from '../demo.ts'
-import { initNodeRenderer, nodeLoader } from '../render-node.ts'
+import { initNodeRenderer, nodeLoader, prepareImages } from '../render-node.ts'
 
 // Tests visuels : chaque template est rendu avec des produits de la boutique de démo (fixtures),
 // et le PNG est comparé à son image de référence. UPDATE_VISUALS=1 régénère les références.
@@ -35,12 +34,7 @@ async function demoValues(t: AnyTemplate, handles: DemoHandle[]) {
   const products = handles.map(demoProduct)
   const ai = { highlights: async (_p: unknown, n: number) => ['Ultra légère', 'Parfaite en poudreuse', 'Fabriquée au Québec'].slice(0, n) }
   const imported = await t.fromProducts(products, { shop: { name: 'Démo', url: DEMO_SHOP_URL }, ai })
-  const values = t.fields.parse(imported) as Record<string, unknown>
-  for (const { name, meta } of fieldsOf(t.fields)) {
-    const v = values[name]
-    if (meta.kind === 'image' && typeof v === 'string' && v !== '') values[name] = IMAGES[v] ?? ''
-  }
-  return values
+  return prepareImages(t, t.fields.parse(imported) as Record<string, unknown>, IMAGES)
 }
 
 function compare(name: string, png: Uint8Array) {

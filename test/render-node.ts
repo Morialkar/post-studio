@@ -20,3 +20,29 @@ export function initNodeRenderer(): Promise<void> {
     return buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength) as ArrayBuffer
   })
 }
+
+const MIME: Record<string, string> = { jpg: 'image/jpeg', jpeg: 'image/jpeg', png: 'image/png', webp: 'image/webp', svg: 'image/svg+xml' }
+
+/**
+ * Images en data URI, comme le navigateur les prépare : les assets du template sont lus sur disque,
+ * les URL du CDN remplacées par les images enregistrées (`known`), les autres vidées.
+ */
+export async function prepareImages(
+  template: { fields: import('zod').ZodObject },
+  values: Record<string, unknown>,
+  known: Record<string, string> = {},
+): Promise<Record<string, unknown>> {
+  const { fieldsOf } = await import('../src/templates/fields.ts')
+  const out = { ...values }
+  for (const { name, meta } of fieldsOf(template.fields)) {
+    const v = out[name]
+    if (meta.kind !== 'image' || typeof v !== 'string' || v === '' || v.startsWith('data:')) continue
+    if (known[v] !== undefined) out[name] = known[v]
+    else if (/^https?:/.test(v)) out[name] = ''
+    else {
+      const ext = v.replace(/[?#].*$/, '').split('.').pop()?.toLowerCase() ?? ''
+      out[name] = `data:${MIME[ext] ?? 'application/octet-stream'};base64,${Buffer.from(await nodeLoader(v)).toString('base64')}`
+    }
+  }
+  return out
+}

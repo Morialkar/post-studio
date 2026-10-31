@@ -2,15 +2,17 @@ import fredoka600 from '@fontsource/fredoka/files/fredoka-latin-600-normal.woff?
 import fredoka700 from '@fontsource/fredoka/files/fredoka-latin-700-normal.woff?url'
 import poppins600 from '@fontsource/poppins/files/poppins-latin-600-normal.woff?url'
 import { z } from 'zod'
+import fondBoutique from './assets/fond-boutique.jpg?url'
 import { color, image, text } from '../fields.ts'
 import { colorsSentence, formatPrice, host, thumbnails } from '../shared/format.ts'
 import type { TemplateDefinition } from '../types.ts'
 import { Template } from './Template.tsx'
 
 // Reproduit le design Canva « Publication Instagram Crunchie Funny Bottle » (1080×1080).
-// Polices : Fredoka et Poppins (libres, OFL) à la place des polices Canva.
+// Polices : Fredoka et Poppins (libres, OFL) à la place des polices Canva ; fond exporté de Canva.
 export const fields = z.object({
-  background: image('Fond de boutique', { scope: 'template' }),
+  // Fond exporté du design Canva (photo de boutique floutée, cadrée comme dans le design).
+  background: image('Fond de boutique', { scope: 'template', fallback: fondBoutique }),
   url: text('Adresse du site (haut)', 'lecoffreauxjouetsettresors.com', { scope: 'template' }),
   title: text('Titre', 'Nom du produit'),
   titleColor1: color('Titre : 1er mot', '#ff3bbc'),
