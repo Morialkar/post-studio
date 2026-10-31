@@ -13,6 +13,9 @@ d'une boutique Shopify : on choisit un produit, l'outil remplit le visuel, on aj
 Le site ne contient aucune configuration. Au premier usage sur un poste, on lui donne un fichier JSON
 (voir [`connexion.exemple.json`](connexion.exemple.json)) ; il est gardé dans le navigateur.
 
+Pour essayer sans boutique ni clé : [`connexion.demo.json`](connexion.demo.json) branche l'outil à
+`hydrogen-preview.myshopify.com`, la boutique de démonstration publique de Shopify, sans IA.
+
 | Champ | Obligatoire | Rôle |
 |---|---|---|
 | `format`, `version` | Oui | Reconnaître le fichier, migrer le format plus tard |

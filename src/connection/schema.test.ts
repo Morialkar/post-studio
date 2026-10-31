@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest'
+import demo from '../../connexion.demo.json?raw'
 import { DEFAULT_GEMINI_MODEL, parseConnection } from './schema'
 
 const valid = {
@@ -40,5 +41,13 @@ describe('parseConnection', () => {
 
   it('JSON invalide : refusé avec un message clair', () => {
     expect(parseConnection('{pas du json')).toEqual({ ok: false, errors: ['le fichier n’est pas du JSON valide'] })
+  })
+})
+
+describe('fichiers du dépôt', () => {
+  it('connexion.demo.json : valide, sans IA', () => {
+    const result = parseConnection(demo)
+    expect(result.ok && result.connection.ai).toBeUndefined()
+    expect(result.ok && result.connection.store.domain).toBe('hydrogen-preview.myshopify.com')
   })
 })

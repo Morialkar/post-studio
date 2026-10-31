@@ -26,3 +26,4 @@ dist-ssr
 # Vrais fichiers de connexion (contiennent une clé Gemini)
 connexion*.json
 !connexion.exemple.json
+!connexion.demo.json
