@@ -30,5 +30,5 @@ export function demoProduct(handle: DemoHandle): NormalizedProduct {
 /** Image enregistrée en data URI, comme le navigateur la prépare avant le rendu. */
 export function demoImage(name: string): string {
   const bytes = readFileSync(join(root, 'test/fixtures/demo/images', name))
-  return `data:image/jpeg;base64,${bytes.toString('base64')}`
+  return `data:image/${name.endsWith('.png') ? 'png' : 'jpeg'};base64,${bytes.toString('base64')}`
 }

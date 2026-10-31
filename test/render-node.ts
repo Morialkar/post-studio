@@ -25,19 +25,22 @@ const MIME: Record<string, string> = { jpg: 'image/jpeg', jpeg: 'image/jpeg', pn
 
 /**
  * Images en data URI, comme le navigateur les prépare : les assets du template sont lus sur disque,
- * les URL du CDN remplacées par les images enregistrées (`known`), les autres vidées.
+ * les URL du CDN remplacées par les images enregistrées (`known`), les autres vidées. Un champ à
+ * détourer prend la version détourée enregistrée (`cut`), comme l'outil après le détourage.
  */
 export async function prepareImages(
   template: { fields: import('zod').ZodObject },
   values: Record<string, unknown>,
   known: Record<string, string> = {},
+  cut: Record<string, string> = {},
 ): Promise<Record<string, unknown>> {
   const { fieldsOf } = await import('../src/templates/fields.ts')
   const out = { ...values }
   for (const { name, meta } of fieldsOf(template.fields)) {
     const v = out[name]
     if (meta.kind !== 'image' || typeof v !== 'string' || v === '' || v.startsWith('data:')) continue
-    if (known[v] !== undefined) out[name] = known[v]
+    if (meta.cutout === true && cut[v] !== undefined) out[name] = cut[v]
+    else if (known[v] !== undefined) out[name] = known[v]
     else if (/^https?:/.test(v)) out[name] = ''
     else {
       const ext = v.replace(/[?#].*$/, '').split('.').pop()?.toLowerCase() ?? ''

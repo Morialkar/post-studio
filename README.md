@@ -64,11 +64,12 @@ npm run dev
 | `npm test` | Tests unitaires et visuels, sans réseau, sur les fixtures de la boutique de démo |
 | `npm run test:live` | Suite live : la vraie boutique de démo, branchée par `connexion.demo.json` |
 | `npm run fixtures:record` | Réenregistre les fixtures depuis la boutique de démo |
+| `npm run fixtures:cutouts` | Détoure les images des fixtures avec BiRefNet lite, comme l'outil (à relancer après `fixtures:record`) |
 | `npm run test:update-visuals` | Régénère les images de référence des tests visuels (après un changement voulu) |
 | `npm run lint`, `npm run build` | oxlint ; vérification TypeScript puis build Vite |
 
 Les tests visuels rendent chaque template avec des produits de démo (deux couleurs, sans couleur,
-33 couleurs) et comparent le PNG à `test/visual/`. En cas d'écart, la CI joint les rendus et les
+33 couleurs), photos détourées comme dans l'outil, et comparent le PNG à `test/visual/`. En cas d'écart, la CI joint les rendus et les
 images de différence (`test/output/`).
 
 ## Organisation

@@ -19,6 +19,8 @@ const TOLERANCE = 0.005
 
 const DEMO_HANDLES: DemoHandle[] = ['the-snowboards', 'the-full-stack', 'the-oxygen', 'the-ultimatum']
 const IMAGES: Record<string, string> = {}
+/** Versions détourées (npm run fixtures:cutouts) */
+const CUTOUTS: Record<string, string> = {}
 for (const handle of DEMO_HANDLES) {
   const p = demoProduct(handle)
   // Les images enregistrées remplacent les URL du CDN (même ordre que record-fixtures).
@@ -26,6 +28,7 @@ for (const handle of DEMO_HANDLES) {
   urls.slice(0, 4).forEach((url, i) => {
     const file = join(import.meta.dirname, '../fixtures/demo/images', `${handle}-${i}.jpeg`)
     if (existsSync(file)) IMAGES[url] = demoImage(`${handle}-${i}.jpeg`)
+    if (existsSync(file.replace('.jpeg', '.cutout.png'))) CUTOUTS[url] = demoImage(`${handle}-${i}.cutout.png`)
   })
 }
 
@@ -34,7 +37,7 @@ async function demoValues(t: AnyTemplate, handles: DemoHandle[]) {
   const products = handles.map(demoProduct)
   const ai = { highlights: async (_p: unknown, n: number) => ['Ultra légère', 'Parfaite en poudreuse', 'Fabriquée au Québec'].slice(0, n) }
   const imported = await t.fromProducts(products, { shop: { name: 'Démo', url: DEMO_SHOP_URL }, ai })
-  return prepareImages(t, t.fields.parse(imported) as Record<string, unknown>, IMAGES)
+  return prepareImages(t, t.fields.parse(imported) as Record<string, unknown>, IMAGES, CUTOUTS)
 }
 
 function compare(name: string, png: Uint8Array) {
