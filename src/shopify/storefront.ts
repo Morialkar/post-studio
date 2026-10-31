@@ -1,11 +1,23 @@
 import { z } from 'zod'
-import type { Connection } from '../connection/schema'
+import type { Connection } from '../connection/schema.ts'
+import type { NormalizedProduct } from '../product/types.ts'
+import { normalizeProduct } from './normalize.ts'
+import {
+  PRODUCT_QUERY,
+  productResponse,
+  SEARCH_QUERY,
+  type SearchHit,
+  SHOP_QUERY,
+  searchResponse,
+  shopResponse,
+} from './queries.ts'
 
 // Version épinglée : Shopify retire les versions environ un an après leur sortie.
-// La veille mensuelle (phase 3) ouvrira une issue avant l'échéance.
+// La veille mensuelle (.github/workflows/veille.yml) ouvre une issue avant l'échéance.
 export const STOREFRONT_API_VERSION = '2026-10'
 
-type Store = Connection['store']
+export type Store = Connection['store']
+export type Shop = { name: string; url: string }
 
 /** Appel à la Storefront API sans token (accès public de la boutique en ligne). */
 export async function storefront<T>(
@@ -19,6 +31,7 @@ export async function storefront<T>(
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ query, variables }),
   })
+  if (response.status === 404) throw new Error('boutique introuvable ou accès public fermé')
   if (!response.ok) throw new Error(`Shopify a répondu ${response.status}`)
   const body = z
     .object({ data: z.unknown().optional(), errors: z.array(z.object({ message: z.string() })).optional() })
@@ -28,10 +41,25 @@ export async function storefront<T>(
   return schema.parse(body.data)
 }
 
-const shopSchema = z.object({ shop: z.object({ name: z.string() }) })
+const context = (store: Store) => ({ country: store.country, language: store.language })
 
-/** Test de connexion : le nom de la boutique. */
+/** Test de connexion : nom et adresse publique de la boutique. */
+export async function fetchShop(store: Store): Promise<Shop> {
+  const data = await storefront(store, SHOP_QUERY, shopResponse)
+  return { name: data.shop.name, url: data.shop.primaryDomain.url }
+}
+
 export async function fetchShopName(store: Store): Promise<string> {
-  const data = await storefront(store, `query Shop { shop { name } }`, shopSchema)
-  return data.shop.name
+  return (await fetchShop(store)).name
+}
+
+export async function searchProducts(store: Store, term: string, first = 12): Promise<SearchHit[]> {
+  const data = await storefront(store, SEARCH_QUERY, searchResponse, { term, first, ...context(store) })
+  return data.products.nodes
+}
+
+export async function fetchProduct(store: Store, handle: string, shopUrl: string): Promise<NormalizedProduct> {
+  const data = await storefront(store, PRODUCT_QUERY, productResponse, { handle, ...context(store) })
+  if (data.product === null) throw new Error(`produit « ${handle} » introuvable`)
+  return normalizeProduct(data.product, shopUrl)
 }

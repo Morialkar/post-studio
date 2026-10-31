@@ -27,3 +27,6 @@ dist-ssr
 connexion*.json
 !connexion.exemple.json
 !connexion.demo.json
+
+# Rendus des tests (comparaison visuelle)
+test/output/

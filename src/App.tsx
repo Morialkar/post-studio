@@ -1,7 +1,7 @@
 import { type DragEvent, useEffect, useState } from 'react'
-import { type Connection, parseConnection } from './connection/schema'
-import { clearAll, exportConnection, loadConnection, saveConnection } from './connection/storage'
-import { fetchShopName } from './shopify/storefront'
+import { type Connection, parseConnection } from './connection/schema.ts'
+import { clearAll, exportConnection, loadConnection, saveConnection } from './connection/storage.ts'
+import { fetchShopName } from './shopify/storefront.ts'
 
 type ShopCheck = { state: 'idle' | 'checking' } | { state: 'ok'; name: string } | { state: 'error'; message: string }
 

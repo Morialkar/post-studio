@@ -1,0 +1,156 @@
+{
+  "product": {
+    "id": "gid://shopify/Product/6730943823928",
+    "handle": "the-full-stack",
+    "title": "The Full Stack Snowboard",
+    "description": "Our recycled polycarbonate board, including a patent-pending polycyclic aluminum nano-laminate, provides satisfying maneuverability loved by competitive resort groomers. With both steadiness and resilience, this board’s mid-rise camber and understated taper gives you unmatched speed and velocity when you need it. This board has been battle-tested by our one-of-a-kind test facility so you can enjoy the slopes with steez.",
+    "onlineStoreUrl": "https://checkout.hydrogen.shop/fr/products/the-full-stack",
+    "availableForSale": false,
+    "featuredImage": {
+      "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_c8ff0b5d-c712-429a-be00-b29bd55cbc9d.jpg?v=1655933474",
+      "altText": null,
+      "width": 3908,
+      "height": 3908
+    },
+    "images": {
+      "nodes": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_c8ff0b5d-c712-429a-be00-b29bd55cbc9d.jpg?v=1655933474",
+          "altText": null,
+          "width": 3908,
+          "height": 3908
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP1_6928063d-da03-4c54-bb49-a4a68bf2aa81.jpg?v=1655933475",
+          "altText": null,
+          "width": 3097,
+          "height": 3908
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP2_83a5f789-6ad4-45cf-8432-3945f5857830.jpg?v=1655933474",
+          "altText": null,
+          "width": 3097,
+          "height": 3908
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3_5219ec38-1878-4258-8303-793cdd3bff9c.jpg?v=1655933475",
+          "altText": null,
+          "width": 3908,
+          "height": 3908
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP4_97dac738-f192-4410-bb79-bf705545c456.jpg?v=1655933475",
+          "altText": null,
+          "width": 3097,
+          "height": 3908
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5_c429d8f2-611b-4a9a-97ab-61ebfd1309b6.jpg?v=1655933475",
+          "altText": null,
+          "width": 3097,
+          "height": 3908
+        }
+      ]
+    },
+    "options": [
+      {
+        "name": "Size",
+        "optionValues": [
+          {
+            "name": "154cm"
+          },
+          {
+            "name": "158cm"
+          },
+          {
+            "name": "160cm"
+          }
+        ]
+      },
+      {
+        "name": "Color",
+        "optionValues": [
+          {
+            "name": "Syntax"
+          }
+        ]
+      }
+    ],
+    "variants": {
+      "nodes": [
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Syntax"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_c8ff0b5d-c712-429a-be00-b29bd55cbc9d.jpg?v=1655933474",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Syntax"
+            }
+          ],
+          "price": {
+            "amount": "1041.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_c8ff0b5d-c712-429a-be00-b29bd55cbc9d.jpg?v=1655933474",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Syntax"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_c8ff0b5d-c712-429a-be00-b29bd55cbc9d.jpg?v=1655933474",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        }
+      ]
+    }
+  }
+}

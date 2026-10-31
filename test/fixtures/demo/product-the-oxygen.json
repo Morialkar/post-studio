@@ -1,0 +1,136 @@
+{
+  "product": {
+    "id": "gid://shopify/Product/7005113385016",
+    "handle": "the-oxygen",
+    "title": "The Oxygen Snowboard",
+    "description": "This high-tensile ultra-high-molecular-weight polyethylene snowboard, including our patented alkaline synthetic-diamond sub-layers, delivers satisfying performance loved by big-mountain riders. Perfectly balanced between flexibility and durability, this board’s off-center camber and aggressive taper delivers unmatched finesse and force under any conditions. This board has been tested by our state-of-the-art mountain laboratory so you can hit the moneybooter with confidence.",
+    "onlineStoreUrl": "https://checkout.hydrogen.shop/fr/products/the-oxygen",
+    "availableForSale": true,
+    "featuredImage": {
+      "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_d624f226-0a89-4fe1-b333-0d1548b43c06.jpg?v=1655932508",
+      "altText": null,
+      "width": 3908,
+      "height": 3908
+    },
+    "images": {
+      "nodes": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_d624f226-0a89-4fe1-b333-0d1548b43c06.jpg?v=1655932508",
+          "altText": null,
+          "width": 3908,
+          "height": 3908
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP1_2024d621-62d8-4956-856f-bef52e2a7239.jpg?v=1655932549",
+          "altText": null,
+          "width": 3097,
+          "height": 3908
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP2_63672143-8536-4c57-9127-d7ac477d0014.jpg?v=1655932549",
+          "altText": null,
+          "width": 3097,
+          "height": 3908
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3_2470d966-aa6e-4c34-906d-8166e34d221d.jpg?v=1655932549",
+          "altText": null,
+          "width": 3908,
+          "height": 3908
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP4_50f3ce35-bb19-4738-8417-08d6fb828aae.jpg?v=1655932550",
+          "altText": null,
+          "width": 3097,
+          "height": 3908
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5_b3d34d1a-2262-4140-bf31-0a556242bc79.jpg?v=1655932549",
+          "altText": null,
+          "width": 3097,
+          "height": 3908
+        }
+      ]
+    },
+    "options": [
+      {
+        "name": "Size",
+        "optionValues": [
+          {
+            "name": "154cm"
+          },
+          {
+            "name": "158cm"
+          },
+          {
+            "name": "160cm"
+          }
+        ]
+      }
+    ],
+    "variants": {
+      "nodes": [
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            }
+          ],
+          "price": {
+            "amount": "1462.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_d624f226-0a89-4fe1-b333-0d1548b43c06.jpg?v=1655932508",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            }
+          ],
+          "price": {
+            "amount": "1504.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_d624f226-0a89-4fe1-b333-0d1548b43c06.jpg?v=1655932508",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            }
+          ],
+          "price": {
+            "amount": "1533.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_d624f226-0a89-4fe1-b333-0d1548b43c06.jpg?v=1655932508",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import { type Connection, connectionSchema } from './schema'
+import { type Connection, connectionSchema } from './schema.ts'
 
 const KEY = 'post-studio:connection'
 

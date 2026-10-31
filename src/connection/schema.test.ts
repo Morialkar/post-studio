@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import demo from '../../connexion.demo.json?raw'
-import { DEFAULT_GEMINI_MODEL, parseConnection } from './schema'
+import { DEFAULT_GEMINI_MODEL, parseConnection } from './schema.ts'
 
 const valid = {
   format: 'post-studio',

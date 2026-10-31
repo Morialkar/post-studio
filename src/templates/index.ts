@@ -1,5 +1,9 @@
-import type { TemplateDefinition } from './types'
+import { crunchieFunnyBottle } from './crunchie-funny-bottle/index.tsx'
+import type { AnyTemplate } from './types.ts'
 
 // Registre : liste des templates disponibles, alimente le sélecteur.
-// Crunchie Funny Bottle s'ajoute ici dès que ses assets (polices, fond, formes) sont exportés de Canva.
-export const templates: TemplateDefinition<unknown>[] = []
+export const templates: AnyTemplate[] = [crunchieFunnyBottle as unknown as AnyTemplate]
+
+export function templateById(id: string): AnyTemplate | undefined {
+  return templates.find((t) => t.id === id)
+}

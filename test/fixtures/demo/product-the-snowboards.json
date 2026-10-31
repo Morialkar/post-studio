@@ -1,0 +1,3113 @@
+{
+  "product": {
+    "id": "gid://shopify/Product/9876554514488",
+    "handle": "the-snowboards",
+    "title": "The Hydrogen Snowboards (Combined)",
+    "description": "Combined Product Description",
+    "onlineStoreUrl": "https://checkout.hydrogen.shop/fr/products/the-snowboards",
+    "availableForSale": true,
+    "featuredImage": {
+      "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+      "altText": "Person standing next to Hydrogen snowboard",
+      "width": 3097,
+      "height": 3908
+    },
+    "images": {
+      "nodes": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+          "altText": "Person standing next to Hydrogen snowboard",
+          "width": 3097,
+          "height": 3908
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+          "altText": null,
+          "width": 1024,
+          "height": 1024
+        }
+      ]
+    },
+    "options": [
+      {
+        "name": "Color",
+        "optionValues": [
+          {
+            "name": "Turquoise"
+          },
+          {
+            "name": "Ember"
+          }
+        ]
+      },
+      {
+        "name": "Size",
+        "optionValues": [
+          {
+            "name": "154cm"
+          },
+          {
+            "name": "158cm"
+          },
+          {
+            "name": "160cm"
+          }
+        ]
+      },
+      {
+        "name": "Binding mount",
+        "optionValues": [
+          {
+            "name": "Nested"
+          },
+          {
+            "name": "Optimistic"
+          }
+        ]
+      },
+      {
+        "name": "Material",
+        "optionValues": [
+          {
+            "name": "Carbon-fiber"
+          },
+          {
+            "name": "Polycarbonate"
+          },
+          {
+            "name": "Fiberglass"
+          },
+          {
+            "name": "Kevlar®"
+          },
+          {
+            "name": "Polyethylene"
+          },
+          {
+            "name": "Vectran®"
+          },
+          {
+            "name": "Wood-composite"
+          },
+          {
+            "name": "Ultra-high-molecular-weight polyethylene"
+          }
+        ]
+      }
+    ],
+    "variants": {
+      "nodes": [
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Carbon-fiber"
+            }
+          ],
+          "price": {
+            "amount": "713.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Main_7dd3f38c-b500-42c8-9033-3c3c847fe154.jpg?v=1710175613",
+            "altText": "Hydrogen snowboard. Front and back.",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Polycarbonate"
+            }
+          ],
+          "price": {
+            "amount": "870.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "941.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Polycarbonate"
+            }
+          ],
+          "price": {
+            "amount": "713.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "941.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Main_7dd3f38c-b500-42c8-9033-3c3c847fe154.jpg?v=1710175613",
+            "altText": "Hydrogen snowboard. Front and back.",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Fiberglass"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Fiberglass"
+            }
+          ],
+          "price": {
+            "amount": "713.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Main_7dd3f38c-b500-42c8-9033-3c3c847fe154.jpg?v=1710175613",
+            "altText": "Hydrogen snowboard. Front and back.",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Kevlar®"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Kevlar®"
+            }
+          ],
+          "price": {
+            "amount": "713.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Main_7dd3f38c-b500-42c8-9033-3c3c847fe154.jpg?v=1710175613",
+            "altText": "Hydrogen snowboard. Front and back.",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "713.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Main_7dd3f38c-b500-42c8-9033-3c3c847fe154.jpg?v=1710175613",
+            "altText": "Hydrogen snowboard. Front and back.",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Vectran®"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Vectran®"
+            }
+          ],
+          "price": {
+            "amount": "713.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Main_7dd3f38c-b500-42c8-9033-3c3c847fe154.jpg?v=1710175613",
+            "altText": "Hydrogen snowboard. Front and back.",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Wood-composite"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Wood-composite"
+            }
+          ],
+          "price": {
+            "amount": "713.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Main_7dd3f38c-b500-42c8-9033-3c3c847fe154.jpg?v=1710175613",
+            "altText": "Hydrogen snowboard. Front and back.",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Ultra-high-molecular-weight polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Carbon-fiber"
+            }
+          ],
+          "price": {
+            "amount": "713.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Main_7dd3f38c-b500-42c8-9033-3c3c847fe154.jpg?v=1710175613",
+            "altText": "Hydrogen snowboard. Front and back.",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Carbon-fiber"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Polycarbonate"
+            }
+          ],
+          "price": {
+            "amount": "713.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "941.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Main_7dd3f38c-b500-42c8-9033-3c3c847fe154.jpg?v=1710175613",
+            "altText": "Hydrogen snowboard. Front and back.",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Polycarbonate"
+            }
+          ],
+          "price": {
+            "amount": "870.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "941.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Fiberglass"
+            }
+          ],
+          "price": {
+            "amount": "713.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Main_7dd3f38c-b500-42c8-9033-3c3c847fe154.jpg?v=1710175613",
+            "altText": "Hydrogen snowboard. Front and back.",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Fiberglass"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Kevlar®"
+            }
+          ],
+          "price": {
+            "amount": "713.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Main_7dd3f38c-b500-42c8-9033-3c3c847fe154.jpg?v=1710175613",
+            "altText": "Hydrogen snowboard. Front and back.",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Kevlar®"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "713.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Main_7dd3f38c-b500-42c8-9033-3c3c847fe154.jpg?v=1710175613",
+            "altText": "Hydrogen snowboard. Front and back.",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Vectran®"
+            }
+          ],
+          "price": {
+            "amount": "713.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Main_7dd3f38c-b500-42c8-9033-3c3c847fe154.jpg?v=1710175613",
+            "altText": "Hydrogen snowboard. Front and back.",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Vectran®"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Ultra-high-molecular-weight polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "713.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Main_7dd3f38c-b500-42c8-9033-3c3c847fe154.jpg?v=1710175613",
+            "altText": "Hydrogen snowboard. Front and back.",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Wood-composite"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Wood-composite"
+            }
+          ],
+          "price": {
+            "amount": "713.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/files/Main_7dd3f38c-b500-42c8-9033-3c3c847fe154.jpg?v=1710175613",
+            "altText": "Hydrogen snowboard. Front and back.",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Ultra-high-molecular-weight polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Carbon-fiber"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Carbon-fiber"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Polycarbonate"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "941.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Polycarbonate"
+            }
+          ],
+          "price": {
+            "amount": "870.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "941.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Fiberglass"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Fiberglass"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Kevlar®"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Kevlar®"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Vectran®"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Vectran®"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Ultra-high-molecular-weight polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Wood-composite"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Wood-composite"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Ultra-high-molecular-weight polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Carbon-fiber"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Carbon-fiber"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Polycarbonate"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "941.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Polycarbonate"
+            }
+          ],
+          "price": {
+            "amount": "870.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "941.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Fiberglass"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Fiberglass"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Kevlar®"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Kevlar®"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Vectran®"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Vectran®"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Ultra-high-molecular-weight polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Wood-composite"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Wood-composite"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP3.jpg?v=1655932274",
+            "altText": "Hydrogen snowboard close up",
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Ultra-high-molecular-weight polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Carbon-fiber"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Carbon-fiber"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Polycarbonate"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "941.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Polycarbonate"
+            }
+          ],
+          "price": {
+            "amount": "870.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "941.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Fiberglass"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Fiberglass"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Kevlar®"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Kevlar®"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Vectran®"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Vectran®"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Ultra-high-molecular-weight polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Wood-composite"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Nested"
+            },
+            {
+              "name": "Material",
+              "value": "Wood-composite"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Ember"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Ultra-high-molecular-weight polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "856.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main.jpg?v=1723830873",
+            "altText": null,
+            "width": 1024,
+            "height": 1024
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Carbon-fiber"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Polycarbonate"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "941.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Fiberglass"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Kevlar®"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Vectran®"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Ultra-high-molecular-weight polyethylene"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            },
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Binding mount",
+              "value": "Optimistic"
+            },
+            {
+              "name": "Material",
+              "value": "Wood-composite"
+            }
+          ],
+          "price": {
+            "amount": "998.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": {
+            "amount": "927.0",
+            "currencyCode": "CAD"
+          },
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg?v=1655932274",
+            "altText": "Person standing next to Hydrogen snowboard",
+            "width": 3097,
+            "height": 3908
+          }
+        }
+      ]
+    }
+  }
+}

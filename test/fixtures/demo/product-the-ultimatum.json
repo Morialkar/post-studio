@@ -1,0 +1,2538 @@
+{
+  "product": {
+    "id": "gid://shopify/Product/7924448264248",
+    "handle": "the-ultimatum",
+    "title": "The Ultimatum",
+    "description": "Set the bar high with \"The Ultimatum\" snowboard. Our high-performance board, made with a carbon fiber and bamboo core and a triaxial fiberglass wrap, delivers an unforgettable experience for advanced riders. This board is designed for versatility and control, with a twin shape and a hybrid camber profile that delivers excellent edge hold and pop. It has been tested by our team of experienced riders, ensuring that it is ready for any challenge. Whether you're hitting the park or exploring the backcountry, \"The Ultimatum\" will give you the freedom to ride with confidence.",
+    "onlineStoreUrl": "https://checkout.hydrogen.shop/fr/products/the-ultimatum",
+    "availableForSale": true,
+    "featuredImage": {
+      "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+      "altText": null,
+      "width": 3908,
+      "height": 3908
+    },
+    "images": {
+      "nodes": [
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+          "altText": null,
+          "width": 3908,
+          "height": 3908
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP_2-the-Ultimat.jpg?v=1684520617",
+          "altText": null,
+          "width": 3097,
+          "height": 3908
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP_3-the-Ultimat.jpg?v=1684520617",
+          "altText": null,
+          "width": 3097,
+          "height": 3908
+        }
+      ]
+    },
+    "options": [
+      {
+        "name": "Size",
+        "optionValues": [
+          {
+            "name": "154cm"
+          },
+          {
+            "name": "158cm"
+          },
+          {
+            "name": "160cm"
+          }
+        ]
+      },
+      {
+        "name": "Color",
+        "optionValues": [
+          {
+            "name": "Green"
+          },
+          {
+            "name": "Gold"
+          },
+          {
+            "name": "Ember"
+          },
+          {
+            "name": "Turquoise"
+          },
+          {
+            "name": "Red"
+          },
+          {
+            "name": "Blue"
+          },
+          {
+            "name": "Purple"
+          },
+          {
+            "name": "Beige"
+          },
+          {
+            "name": "Black"
+          },
+          {
+            "name": "Clear"
+          },
+          {
+            "name": "Brown"
+          },
+          {
+            "name": "Bronze"
+          },
+          {
+            "name": "Gray"
+          },
+          {
+            "name": "Navy"
+          },
+          {
+            "name": "Orange"
+          },
+          {
+            "name": "Pink"
+          },
+          {
+            "name": "Rose gold"
+          },
+          {
+            "name": "Silver"
+          },
+          {
+            "name": "White"
+          },
+          {
+            "name": "Yellow"
+          },
+          {
+            "name": "Animal"
+          },
+          {
+            "name": "Camouflage"
+          },
+          {
+            "name": "Checkered"
+          },
+          {
+            "name": "Dots"
+          },
+          {
+            "name": "Multicolor"
+          },
+          {
+            "name": "Geometric"
+          },
+          {
+            "name": "Floral"
+          },
+          {
+            "name": "Plaid"
+          },
+          {
+            "name": "Rainbow"
+          },
+          {
+            "name": "Tie-dye"
+          },
+          {
+            "name": "Striped"
+          },
+          {
+            "name": "Light blue"
+          },
+          {
+            "name": "Dark Orange"
+          }
+        ]
+      }
+    ],
+    "variants": {
+      "nodes": [
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Green"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Gold"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Ember"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Red"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Blue"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Purple"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Beige"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Clear"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Brown"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Bronze"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Gray"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Navy"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Orange"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Pink"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Rose gold"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Silver"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "White"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Yellow"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Animal"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Camouflage"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Checkered"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Dots"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Multicolor"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Geometric"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Floral"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Plaid"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Rainbow"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Tie-dye"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Striped"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Light blue"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "154cm"
+            },
+            {
+              "name": "Color",
+              "value": "Dark Orange"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Green"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Gold"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Ember"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Red"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Blue"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Purple"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Beige"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Clear"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Brown"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Bronze"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Gray"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Navy"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Orange"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Pink"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Rose gold"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Silver"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "White"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Yellow"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Animal"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Camouflage"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Checkered"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Dots"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Multicolor"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Geometric"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Floral"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Plaid"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Rainbow"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Tie-dye"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Striped"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Light blue"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "158cm"
+            },
+            {
+              "name": "Color",
+              "value": "Dark Orange"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Green"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Gold"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Ember"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Turquoise"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Red"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Blue"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Purple"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Beige"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Clear"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Brown"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Bronze"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Gray"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Navy"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Orange"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Pink"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Rose gold"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Silver"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "White"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Yellow"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Animal"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Camouflage"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Checkered"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Dots"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Multicolor"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Geometric"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Floral"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Plaid"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Rainbow"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Tie-dye"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": false,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Striped"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Light blue"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        },
+        {
+          "availableForSale": true,
+          "selectedOptions": [
+            {
+              "name": "Size",
+              "value": "160cm"
+            },
+            {
+              "name": "Color",
+              "value": "Dark Orange"
+            }
+          ],
+          "price": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          },
+          "compareAtPrice": null,
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+            "altText": null,
+            "width": 3908,
+            "height": 3908
+          }
+        }
+      ]
+    }
+  }
+}

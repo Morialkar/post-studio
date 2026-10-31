@@ -1,0 +1,114 @@
+{
+  "products": {
+    "nodes": [
+      {
+        "id": "gid://shopify/Product/7924448297016",
+        "handle": "the-wildfire",
+        "title": "The Wildfire",
+        "availableForSale": true,
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Wildfir.jpg?v=1684520626",
+          "altText": null,
+          "width": 3908,
+          "height": 3908
+        },
+        "priceRange": {
+          "minVariantPrice": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Product/7924448264248",
+        "handle": "the-ultimatum",
+        "title": "The Ultimatum",
+        "availableForSale": true,
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Ultimat.jpg?v=1684520617",
+          "altText": null,
+          "width": 3908,
+          "height": 3908
+        },
+        "priceRange": {
+          "minVariantPrice": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Product/7924448067640",
+        "handle": "the-revolution",
+        "title": "The Revolution",
+        "availableForSale": true,
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-revolut.jpg?v=1684520574",
+          "altText": null,
+          "width": 3908,
+          "height": 3908
+        },
+        "priceRange": {
+          "minVariantPrice": {
+            "amount": "1041.0",
+            "currencyCode": "CAD"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Product/7924447838264",
+        "handle": "the-mythos",
+        "title": "The Mythos",
+        "availableForSale": true,
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-mythos.jpg?v=1684520515",
+          "altText": null,
+          "width": 3908,
+          "height": 3908
+        },
+        "priceRange": {
+          "minVariantPrice": {
+            "amount": "1070.0",
+            "currencyCode": "CAD"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Product/7924447707192",
+        "handle": "the-juggernaut",
+        "title": "The Juggernaut",
+        "availableForSale": true,
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Juggern.jpg?v=1684520480",
+          "altText": null,
+          "width": 3908,
+          "height": 3908
+        },
+        "priceRange": {
+          "minVariantPrice": {
+            "amount": "1041.0",
+            "currencyCode": "CAD"
+          }
+        }
+      },
+      {
+        "id": "gid://shopify/Product/7924447674424",
+        "handle": "the-jetstream",
+        "title": "The Jetstream",
+        "availableForSale": true,
+        "featuredImage": {
+          "url": "https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main-the-Jetstre.jpg?v=1684520473",
+          "altText": null,
+          "width": 3908,
+          "height": 3908
+        },
+        "priceRange": {
+          "minVariantPrice": {
+            "amount": "1041.0",
+            "currencyCode": "CAD"
+          }
+        }
+      }
+    ]
+  }
+}

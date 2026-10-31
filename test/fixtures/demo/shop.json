@@ -1,0 +1,8 @@
+{
+  "shop": {
+    "name": "Hydrogen Demo Store",
+    "primaryDomain": {
+      "url": "https://checkout.hydrogen.shop"
+    }
+  }
+}
