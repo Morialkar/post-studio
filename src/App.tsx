@@ -1,7 +1,8 @@
 import { type DragEvent, useEffect, useState } from 'react'
 import { testGemini } from './ai/gemini.ts'
+import { ConnectionForm } from './connection/ConnectionForm.tsx'
 import { type Connection, parseConnection } from './connection/schema.ts'
-import { clearAll, exportConnection, loadConnection, saveConnection } from './connection/storage.ts'
+import { clearAll, downloadConnection, loadConnection, saveConnection } from './connection/storage.ts'
 import { fetchShop, type Shop } from './shopify/storefront.ts'
 import { Studio } from './studio/Studio.tsx'
 
@@ -15,6 +16,8 @@ export default function App() {
   const [shop, setShop] = useState<Check<Shop>>({ state: 'checking' })
   const [gemini, setGemini] = useState<Check<true>>({ state: 'checking' })
   const [dragging, setDragging] = useState(false)
+  /** Formulaire complet ouvert (clé Gemini, export) */
+  const [configuring, setConfiguring] = useState(false)
 
   // Test de connexion : nom de la boutique via Shopify, petit appel Gemini.
   useEffect(() => {
@@ -38,11 +41,16 @@ export default function App() {
       setErrors(result.errors)
       return
     }
+    connect(result.connection)
+  }
+
+  function connect(next: Connection) {
     setErrors([])
-    saveConnection(result.connection)
+    setConfiguring(false)
+    saveConnection(next)
     setShop({ state: 'checking' })
-    setGemini(result.connection.ai ? { state: 'checking' } : { state: 'off' })
-    setConnection(result.connection)
+    setGemini(next.ai ? { state: 'checking' } : { state: 'off' })
+    setConnection(next)
   }
 
   function onDrop(event: DragEvent) {
@@ -50,16 +58,6 @@ export default function App() {
     setDragging(false)
     const file = event.dataTransfer.files[0]
     if (file !== undefined) void importFile(file)
-  }
-
-  function download() {
-    if (connection === null) return
-    const url = URL.createObjectURL(exportConnection(connection))
-    const a = document.createElement('a')
-    a.href = url
-    a.download = 'connexion-post-studio.json'
-    a.click()
-    URL.revokeObjectURL(url)
   }
 
   function disconnect() {
@@ -71,7 +69,7 @@ export default function App() {
     return (
       <main className="welcome">
         <h1>Studio de publications</h1>
-        <p>Pour commencer, ajoute le fichier de connexion de ta boutique. Il n’est demandé qu’une fois sur ce poste.</p>
+        <p>Pour commencer, ajoute le fichier de connexion de ta boutique, ou entre l’adresse du site. Ce n’est demandé qu’une fois sur ce poste.</p>
         <label
           className={dragging ? 'drop dragging' : 'drop'}
           onDragOver={(e) => {
@@ -98,6 +96,8 @@ export default function App() {
             ))}
           </ul>
         )}
+        <p className="or">ou</p>
+        <ConnectionForm full={configuring} onConnect={connect} onExpand={() => setConfiguring(true)} />
       </main>
     )
 
@@ -108,7 +108,10 @@ export default function App() {
       <header>
         <h1>Studio de publications</h1>
         <div className="actions">
-          <button type="button" onClick={download}>
+          <button type="button" onClick={() => setConfiguring((c) => !c)} aria-expanded={configuring}>
+            Réglages
+          </button>
+          <button type="button" onClick={() => downloadConnection(connection)}>
             Exporter
           </button>
           <button type="button" onClick={disconnect}>
@@ -116,6 +119,11 @@ export default function App() {
           </button>
         </div>
       </header>
+      {configuring && (
+        <section className="settings">
+          <ConnectionForm key={JSON.stringify(connection)} initial={connection} full onConnect={connect} />
+        </section>
+      )}
       <section className="status">
         <span>
           Boutique : <strong>{connection.store.domain}</strong>{' '}

@@ -16,6 +16,12 @@ En ligne : <https://morialkar.github.io/post-studio/>
 Le site ne contient aucune configuration. Au premier usage sur un poste, on lui donne un fichier JSON
 (voir [`connexion.exemple.json`](connexion.exemple.json)) ; il est gardé dans le navigateur.
 
+Sans fichier, on peut aussi taper l'adresse du site (le domaine public, ex. `www.ma-boutique.com`, ou le
+`.myshopify.com`) : l'outil trouve le domaine `.myshopify.com` dans le `/meta.json` que publie toute
+boutique Shopify. « Configurer avec une clé Gemini… » ouvre le formulaire complet (adresse, clé Gemini,
+modèle, langue, pays), qui connecte l'outil ou **exporte le fichier de clé** à donner à une collègue.
+Une fois connecté, « Réglages » rouvre ce formulaire.
+
 | Champ | Obligatoire | Rôle |
 |---|---|---|
 | `format`, `version` | Oui | Reconnaître le fichier, migrer le format plus tard |

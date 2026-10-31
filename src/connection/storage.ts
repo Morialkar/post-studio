@@ -38,3 +38,13 @@ export function clearAll(): void {
 export function exportConnection(connection: Connection): Blob {
   return new Blob([`${JSON.stringify(connection, null, 2)}\n`], { type: 'application/json' })
 }
+
+/** Télécharge le fichier de connexion (connexion-post-studio.json). */
+export function downloadConnection(connection: Connection): void {
+  const url = URL.createObjectURL(exportConnection(connection))
+  const a = document.createElement('a')
+  a.href = url
+  a.download = 'connexion-post-studio.json'
+  a.click()
+  URL.revokeObjectURL(url)
+}

@@ -383,3 +383,55 @@ button.link {
   height: auto;
   border-radius: 4px;
 }
+
+.welcome .or {
+  text-align: center;
+  color: var(--muted);
+  margin: 20px 0;
+}
+
+.connection-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.connection-form input[type='text'],
+.connection-form input[type='password'] {
+  font: inherit;
+  color: var(--fg);
+  background: transparent;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  width: 100%;
+}
+
+.connection-form summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.connection-form .options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.connection-form .actions {
+  flex-wrap: wrap;
+}
+
+.connection-form .errors {
+  margin: 0;
+}
+
+.settings {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  max-width: 560px;
+}
