@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Vrais fichiers de connexion (contiennent une clé Gemini)
+connexion*.json
+!connexion.exemple.json
