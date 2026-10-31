@@ -15,7 +15,7 @@ export const shopResponse = z.object({
   shop: z.object({ name: z.string(), primaryDomain: z.object({ url: z.string() }) }),
 })
 
-export const SEARCH_QUERY = `query Search($term: String!, $first: Int!, $country: CountryCode, $language: LanguageCode)
+export const SEARCH_QUERY = `query Search($term: String, $first: Int!, $country: CountryCode, $language: LanguageCode)
 @inContext(country: $country, language: $language) {
   products(first: $first, query: $term, sortKey: RELEVANCE) {
     nodes {

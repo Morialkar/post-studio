@@ -1,22 +1,32 @@
 import { type DragEvent, useEffect, useState } from 'react'
+import { testGemini } from './ai/gemini.ts'
 import { type Connection, parseConnection } from './connection/schema.ts'
 import { clearAll, exportConnection, loadConnection, saveConnection } from './connection/storage.ts'
-import { fetchShopName } from './shopify/storefront.ts'
+import { fetchShop, type Shop } from './shopify/storefront.ts'
+import { Studio } from './studio/Studio.tsx'
 
-type ShopCheck = { state: 'idle' | 'checking' } | { state: 'ok'; name: string } | { state: 'error'; message: string }
+type Check<T> = { state: 'checking' } | { state: 'ok'; value: T } | { state: 'error'; message: string } | { state: 'off' }
+
+const message = (e: unknown) => (e instanceof Error ? e.message : String(e))
 
 export default function App() {
   const [connection, setConnection] = useState<Connection | null>(() => loadConnection())
   const [errors, setErrors] = useState<string[]>([])
-  const [shop, setShop] = useState<ShopCheck>(() => ({ state: connection === null ? 'idle' : 'checking' }))
+  const [shop, setShop] = useState<Check<Shop>>({ state: 'checking' })
+  const [gemini, setGemini] = useState<Check<true>>({ state: 'checking' })
   const [dragging, setDragging] = useState(false)
 
+  // Test de connexion : nom de la boutique via Shopify, petit appel Gemini.
   useEffect(() => {
     if (connection === null) return
     let cancelled = false
-    fetchShopName(connection.store)
-      .then((name) => !cancelled && setShop({ state: 'ok', name }))
-      .catch((e: unknown) => !cancelled && setShop({ state: 'error', message: String(e instanceof Error ? e.message : e) }))
+    fetchShop(connection.store)
+      .then((value) => !cancelled && setShop({ state: 'ok', value }))
+      .catch((e: unknown) => !cancelled && setShop({ state: 'error', message: message(e) }))
+    if (connection.ai)
+      testGemini(connection.ai)
+        .then(() => !cancelled && setGemini({ state: 'ok', value: true }))
+        .catch((e: unknown) => !cancelled && setGemini({ state: 'error', message: message(e) }))
     return () => {
       cancelled = true
     }
@@ -31,6 +41,7 @@ export default function App() {
     setErrors([])
     saveConnection(result.connection)
     setShop({ state: 'checking' })
+    setGemini(result.connection.ai ? { state: 'checking' } : { state: 'off' })
     setConnection(result.connection)
   }
 
@@ -54,7 +65,6 @@ export default function App() {
   function disconnect() {
     clearAll()
     setConnection(null)
-    setShop({ state: 'idle' })
   }
 
   if (connection === null)
@@ -91,6 +101,8 @@ export default function App() {
       </main>
     )
 
+  const geminiState = connection.ai ? gemini : ({ state: 'off' } as const)
+
   return (
     <main className="studio">
       <header>
@@ -105,15 +117,21 @@ export default function App() {
         </div>
       </header>
       <section className="status">
-        <p>
+        <span>
           Boutique : <strong>{connection.store.domain}</strong>{' '}
-          {shop.state === 'checking' && <span>— vérification…</span>}
-          {shop.state === 'ok' && <span className="ok">— connectée ({shop.name})</span>}
+          {shop.state === 'checking' && '— vérification…'}
+          {shop.state === 'ok' && <span className="ok">— connectée ({shop.value.name})</span>}
           {shop.state === 'error' && <span className="ko">— injoignable : {shop.message}</span>}
-        </p>
-        <p>IA : {connection.ai ? `Gemini (${connection.ai.model})` : 'aucune clé, les points forts se tapent à la main'}</p>
+        </span>
+        <span>
+          IA :{' '}
+          {geminiState.state === 'off' && 'aucune clé, les points forts se tapent à la main'}
+          {geminiState.state === 'checking' && `Gemini (${connection.ai?.model}) — vérification…`}
+          {geminiState.state === 'ok' && <span className="ok">Gemini ({connection.ai?.model})</span>}
+          {geminiState.state === 'error' && <span className="ko">Gemini indisponible : {geminiState.message} (saisie à la main)</span>}
+        </span>
       </section>
-      <p className="next">La recherche de produits et le premier template arrivent à la phase 1.</p>
+      {shop.state === 'ok' && <Studio connection={geminiState.state === 'error' ? { ...connection, ai: undefined } : connection} shop={shop.value} />}
     </main>
   )
 }

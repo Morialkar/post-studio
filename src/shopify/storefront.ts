@@ -54,7 +54,11 @@ export async function fetchShopName(store: Store): Promise<string> {
 }
 
 export async function searchProducts(store: Store, term: string, first = 12): Promise<SearchHit[]> {
-  const data = await storefront(store, SEARCH_QUERY, searchResponse, { term, first, ...context(store) })
+  const data = await storefront(store, SEARCH_QUERY, searchResponse, {
+    term: term.trim() === '' ? null : term,
+    first,
+    ...context(store),
+  })
   return data.products.nodes
 }
 
