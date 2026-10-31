@@ -1,0 +1,14 @@
+{
+  "format": "post-studio",
+  "version": 1,
+  "store": {
+    "domain": "lecoffreauxjouetsettresors.myshopify.com",
+    "language": "FR",
+    "country": "CA"
+  },
+  "ai": {
+    "provider": "gemini",
+    "apiKey": "AIza...",
+    "model": "gemini-flash-latest"
+  }
+}
